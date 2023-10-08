@@ -1,12 +1,15 @@
 body {
-    background: #d0cbcb;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
 }
 
 /* CSS стили для заголовков */
 h1 {
-    font-size: 24px;
-    color: #333333;
-    margin-bottom: 10px;
+    font-size: 45px;
+    color: #274426;
+    margin-bottom: 20px;
 }
 
 h2 {
@@ -17,26 +20,35 @@ h2 {
 
 h3 {
     font-size: 18px;
-    color: #ac2222;
+    color: #333333;
     margin-bottom: 6px;
 }
 
+h4 {
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+
 /* CSS стили для параграфов */
 p {
-    font-size: 16px;
+    font-size: 15px;
     color: #555555;
     margin-bottom: 12px;
 }
 
 /* CSS стили для списков */
-ul {
-    list-style-type: disc;
-    margin-left: 20px;
+ul,
+ol {
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 10px;
+    margin-left: 0px;
 }
 
-ol {
-    list-style-type: decimal;
-    margin-left: 20px;
+li {
+    margin-bottom: 5px;
 }
 
 li {
@@ -58,7 +70,7 @@ li {
 }
 
 .content-right {
-    background: #ffffff;
+    background: #8cb184;
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
@@ -66,16 +78,28 @@ li {
 }
 
 img {
-    width: 100%;
     height: auto;
 }
 
+.image-radius {
+    border-radius: 5px;
+    /* Скругление углов изображения */
+    border: 5px solid #274426;
+    /* Цвет и ширину рамки */
+    box-shadow: 2px 1px 5px #2a8031;
+    /* Цвет и размер тени */
+}
+
+
 /* CSS стили для ссылок */
 a {
-    color: #007bff;
+    font-size: 16px;
+    color: #892471;
     text-decoration: none;
+    margin-right: 10px;
 }
 
 a:hover {
+    color: #0056b3;
     text-decoration: underline;
 }
