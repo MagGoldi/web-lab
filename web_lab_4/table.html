@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Table</title>
+    <link rel="stylesheet" type="text/css" href="css_table.css/table.css">
+</head>
+
+<body>
+    <div class="header">
+        <a href="index.html">Home</a>
+        <a href="positioning.html">2nd</a>
+        <a href="table.html">Table</a>
+    </div>
+    <table>
+        <h1>Таблица с упражнениями</h1>
+        <thead>
+            <tr>
+                <th>Фото</th>
+                <th>Упражнение</th>
+                <th>Описание</th>
+                <th>Оценка</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="css_table.css/p_1.jpg" width="140" height="140" class="image-radius"></td>
+                <td>Становая тяга</td>
+                <td>Описание упражнения 1</td>
+                <td>4.5</td>
+            </tr>
+            <tr>
+                <td><img src="css_table.css/p_2.jpg" width="140" height="140" class="image-radius"></td>
+                <td>Упражнение 2</td>
+                <td>Описание упражнения 2</td>
+                <td>3.7</td>
+            </tr>
+            <tr>
+                <td><img src="css_table.css/p_3.jpg" width="140" height="140" class="image-radius"></td>
+                <td>Упражнение 3</td>
+                <td>Описание упражнения 3</td>
+                <td>4.2</td>
+            </tr>
+            <tr>
+                <td><img src="css_table.css/p_4.jpg" width="140" height="140" class="image-radius"></td>
+                <td>Упражнение 4</td>
+                <td>Описание упражнения 4</td>
+                <td>5.0</td>
+            </tr>
+            <tr>
+                <td><img src="css_table.css/p_5.jpg" width="140" height="140" class="image-radius"></td>
+                <td>Упражнение 5</td>
+                <td>Описание упражнения 5</td>
+                <td>4.8</td>
+            </tr>
+            <tr>
+                <td><img src="css_table.css/p_6.jpg" width="140" height="140" class="image-radius"></td>
+                <td>Упражнение 6</td>
+                <td>Описание упражнения 6</td>
+                <td>3.3</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form id="addForm">
+        <label for="photo">Фото:</label>
+        <input type="text" id="photo" name="photo" required><br><br>
+
+        <label for="exercise">Упражнение:</label>
+        <input type="text" id="exercise" name="exercise" required><br><br>
+
+        <label for="description">Описание:</label>
+        <input type="text" id="description" name="description" required><br><br>
+
+        <label for="grade">Оценка:</label>
+        <input type="number" id="grade" name="grade" required><br><br>
+
+        <input type="submit" value="Добавить">
+    </form>
+</body>
+
+</html>
