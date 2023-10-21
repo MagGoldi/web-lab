@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
+}
+
+/* CSS стили для заголовков */
+h1 {
+    font-size: 45px;
+    color: #274426;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 8px;
+}
+
+h3 {
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 6px;
+}
+
+h4 {
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+
+/* CSS стили для параграфов */
+p {
+    font-size: 15px;
+    color: #555555;
+    margin-bottom: 12px;
+}
+
+/* CSS стили для списков */
+ul,
+ol {
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+li {
+    font-size: 16px;
+    color: #555555;
+    margin-bottom: 6px;
+}
+
+.content {
+    display: flex;
+}
+
+.content-left {
+    background: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 70%;
+}
+
+.content-right {
+    background: #8cb184;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+}
+
+img {
+    height: auto;
+}
+
+.image-radius {
+    border-radius: 5px;
+    /* Скругление углов изображения */
+    border: 5px solid #274426;
+    /* Цвет и ширину рамки */
+    box-shadow: 2px 1px 5px #2a8031;
+    /* Цвет и размер тени */
+}
+
+
+/* CSS стили для ссылок */
+a {
+    font-size: 16px;
+    color: #892471;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+
+.container {
+    background-color: #8cb184;
+}
+
+.block {
+    width: 200px;
+    height: 200px;
+    background-color: #274426;
+    margin: 0 auto;
+}
+
+.container-2 {
+    background-color: #8cb184;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.block-2 {
+    width: 200px;
+    height: 200px;
+    background-color: #274426;
+    margin: 0 auto;
+}
+
+.container-3 {
+    background-color: #8cb184;
+    border: solid white;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.block-3 {
+    background-color: #274426;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid #2a8031;
+}
+
+.fixed-image {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.tmp {
+    margin-top: 50px;
+    width: 700px;
+    height: 700px;
+    background-color: rgb(232, 240, 235);
+}
+
+.block4_1 {
+    width: 200px;
+    height: 200px;
+    background-color: none;
+    border: solid #badbb3;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.block4_2 {
+    width: 200px;
+    height: 200px;
+    background-color: none;
+    border: solid #23702a;
+    position: relative;
+    top: 50px;
+    left: 250px;
+}
+
+.block4_3 {
+    width: 200px;
+    height: 200px;
+    background-color: none;
+    border: solid #041903;
+    position: relative;
+    top: 0px;
+    left: 400px;
+}
+
+.fixed-image {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
