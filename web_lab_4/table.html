@@ -13,70 +13,140 @@
         <a href="table.html">Table</a>
     </div>
     <table>
-        <h1>Таблица с упражнениями</h1>
+
+        <h1>Основые алгоритмы ML для задач Классификации</h1>
         <thead>
             <tr>
                 <th>Фото</th>
-                <th>Упражнение</th>
+                <th>Название</th>
                 <th>Описание</th>
-                <th>Оценка</th>
+                <th>Плюсы</th>
+                <th>Минусы</th>
+                <th>O(n)</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td><img src="css_table.css/p_1.jpg" width="140" height="140" class="image-radius"></td>
-                <td>Становая тяга</td>
-                <td>Описание упражнения 1</td>
-                <td>4.5</td>
+                <td><img src="css_table.css/log_reg.png" width="140" height="140" class="image-radius"></td>
+                <td>Логистическая регрессия</td>
+                <td>Логистическая регрессия используется для решения задач бинарной классификации, где предсказывается
+                    вероятность принадлежности объекта к одному из двух классов.</td>
+                <td>Простота реализации, хорошая интерпретируемость результатов, эффективность на больших объемах
+                    данных.</td>
+                <td>Не способна моделировать сложные зависимости между признаками.</td>
+                <td>O(n)</td>
             </tr>
             <tr>
-                <td><img src="css_table.css/p_2.jpg" width="140" height="140" class="image-radius"></td>
-                <td>Упражнение 2</td>
-                <td>Описание упражнения 2</td>
-                <td>3.7</td>
+                <td><img src="css_table.css/KNN.png" width="140" height="140" class="image-radius"></td>
+                <td>K-Nearest Neighbors (KNN)</td>
+                <td>KNN относит объект к классу, основываясь на классах его ближайших соседей. Количество ближайших
+                    соседей (K) выбирается заранее.</td>
+                <td>Простота реализации, способность моделировать сложные зависимости между признаками, хорошая
+                    обобщающая способность.</td>
+                <td>Высокая вычислительная сложность при большом количестве объектов в выборке.</td>
+                <td>O(n)</td>
             </tr>
             <tr>
-                <td><img src="css_table.css/p_3.jpg" width="140" height="140" class="image-radius"></td>
-                <td>Упражнение 3</td>
-                <td>Описание упражнения 3</td>
-                <td>4.2</td>
+                <td><img src="css_table.css/Decesion_Tree.png" width="140" height="140" class="image-radius"></td>
+                <td>Decision tree</td>
+                <td>Решающее дерево строит последовательность вопросов по признакам, чтобы классифицировать объекты.
+                    Каждый узел дерева представляет собой вопрос по одному из признаков.</td>
+                <td>Хорошая интерпретируемость результатов, способность моделировать сложные зависимости между
+                    признаками, устойчивость к выбросам</td>
+                <td>Тенденция к переобучению, сложность построения и обучения на больших объемах данных.</td>
+                <td>O(n)</td>
             </tr>
             <tr>
-                <td><img src="css_table.css/p_4.jpg" width="140" height="140" class="image-radius"></td>
-                <td>Упражнение 4</td>
-                <td>Описание упражнения 4</td>
-                <td>5.0</td>
+                <td><img src="css_table.css/svm.jpeg" width="140" height="140" class="image-radius"></td>
+                <td>Support Vector Machines, SVM</td>
+                <td>SVM строит гиперплоскость в многомерном пространстве, которая максимально разделяет объекты разных
+                    классов.</td>
+                <td>Эффективность на данных с большим количеством признаков, способность моделировать сложные
+                    зависимости между признаками, устойчивость к выбросам.</td>
+                <td>Трудность интерпретации результатов, сложность выбора оптимальных параметров модели.</td>
+                <td>O(n^2)</td>
             </tr>
             <tr>
-                <td><img src="css_table.css/p_5.jpg" width="140" height="140" class="image-radius"></td>
-                <td>Упражнение 5</td>
-                <td>Описание упражнения 5</td>
-                <td>4.8</td>
+                <td><img src="css_table.css/NBC.png" width="140" height="140" class="image-radius"></td>
+                <td>Наивный Байесовский классификатор:</td>
+                <td>Байесовский классификатор основан на теореме Байеса и предполагает независимость признаков.
+                    Классификация происходит путем вычисления вероятности принадлежности объекта к каждому классу.</td>
+                <td>Простота реализации, хорошая обобщающая способность, эффективность на больших объемах данных.</td>
+                <td>Предположение о независимости признаков может быть неверным.</td>
+                <td>O(n)</td>
             </tr>
             <tr>
-                <td><img src="css_table.css/p_6.jpg" width="140" height="140" class="image-radius"></td>
-                <td>Упражнение 6</td>
-                <td>Описание упражнения 6</td>
-                <td>3.3</td>
+                <td><img src="css_table.css/Random_Forest.jpg" width="140" height="140" class="image-radius"></td>
+                <td>Random Forest</td>
+                <td>Случайный лес состоит из множества решающих деревьев, каждое из которых обучается на подвыборке
+                    данных. Классификация происходит путем голосования деревьев.</td>
+                <td> Хорошая обобщающая способность, устойчивость к переобучению, способность моделировать сложные
+                    зависимости между признаками.</td>
+                <td>Трудность интерпретации результатов, сложность обучения на больших объемах данных.</td>
+                <td>O(n)</td>
             </tr>
         </tbody>
     </table>
 
-    <form id="addForm">
-        <label for="photo">Фото:</label>
-        <input type="text" id="photo" name="photo" required><br><br>
 
-        <label for="exercise">Упражнение:</label>
-        <input type="text" id="exercise" name="exercise" required><br><br>
+    <form onsubmit="addRow(event)">
+        <label for="photo">Фото:</label>
+        <input type="file" id="photo" name="photo"><br>
+
+        <label for="name">Название:</label>
+        <input type="text" id="name" name="name"><br>
 
         <label for="description">Описание:</label>
-        <input type="text" id="description" name="description" required><br><br>
+        <textarea id="description" name="description"></textarea><br>
 
-        <label for="grade">Оценка:</label>
-        <input type="number" id="grade" name="grade" required><br><br>
+        <label for="pros">Плюсы:</label>
+        <input type="text" id="pros" name="pros"><br>
+
+        <label for="cons">Минусы:</label>
+        <input type="text" id="cons" name="cons"><br>
+
+        <label for="complexity">O(n):</label>
+        <input type="text" id="complexity" name="complexity"><br>
 
         <input type="submit" value="Добавить">
     </form>
+
+    <script>
+        function addRow(event) {
+            event.preventDefault();
+
+            var table = document.querySelector("table");
+            var row = table.insertRow(-1);
+
+            var photoCell = row.insertCell(0);
+            var nameCell = row.insertCell(1);
+            var descriptionCell = row.insertCell(2);
+            var prosCell = row.insertCell(3);
+            var consCell = row.insertCell(4);
+            var complexityCell = row.insertCell(5);
+
+            var photoInput = document.getElementById("photo");
+            var nameInput = document.getElementById("name");
+            var descriptionInput = document.getElementById("description");
+            var prosInput = document.getElementById("pros");
+            var consInput = document.getElementById("cons");
+            var complexityInput = document.getElementById("complexity");
+
+            photoCell.innerHTML = photoInput.value;
+            nameCell.innerHTML = nameInput.value;
+            descriptionCell.innerHTML = descriptionInput.value;
+            prosCell.innerHTML = prosInput.value;
+            consCell.innerHTML = consInput.value;
+            complexityCell.innerHTML = complexityInput.value;
+
+            photoInput.value = "";
+            nameInput.value = "";
+            descriptionInput.value = "";
+            prosInput.value = "";
+            consInput.value = "";
+            complexityInput.value = "";
+        }
+    </script>
 </body>
 
 </html>
