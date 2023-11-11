@@ -1,0 +1,33 @@
+/* Common styles for both info.html and films.html */
+
+/* Style for the carousel */
+#carousel {
+    margin-top: 20px;
+  }
+  
+  /* Style for the actor information section */
+  #actorInfo {
+    margin-top: 10px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Style for film cards */
+  .card {
+    margin: 10px;
+  }
+  
+  /* Specific styles for info.html */
+  
+  /* Style for the "Подробнее" button */
+  .btn-primary {
+    margin-top: 10px;
+  }
+  
+  /* Specific styles for films.html */
+  
+  /* Style for the "Work in Progress" alert */
+  .alert {
+    margin-top: 20px;
+  }
